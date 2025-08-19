@@ -1,0 +1,744 @@
+CRITICAL - 2025-08-12 19:35:17 --> ErrorException: require_once(models/Usuario.php): Failed to open stream: No such file or directory
+[Method: GET, Route: login]
+in APPPATH\Controllers\usuario.php on line 2.
+ 1 APPPATH\Controllers\usuario.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(models/Usuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php', 2)
+ 2 APPPATH\Controllers\usuario.php(2): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\usuario', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 19:35:29 --> ErrorException: require_once(models/Usuario.php): Failed to open stream: No such file or directory
+[Method: GET, Route: login]
+in APPPATH\Controllers\usuario.php on line 2.
+ 1 APPPATH\Controllers\usuario.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(models/Usuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php', 2)
+ 2 APPPATH\Controllers\usuario.php(2): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\usuario', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 19:35:30 --> ErrorException: require_once(models/Usuario.php): Failed to open stream: No such file or directory
+[Method: GET, Route: login]
+in APPPATH\Controllers\usuario.php on line 2.
+ 1 APPPATH\Controllers\usuario.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(models/Usuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php', 2)
+ 2 APPPATH\Controllers\usuario.php(2): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\usuario', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 19:35:30 --> ErrorException: require_once(models/Usuario.php): Failed to open stream: No such file or directory
+[Method: GET, Route: login]
+in APPPATH\Controllers\usuario.php on line 2.
+ 1 APPPATH\Controllers\usuario.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(models/Usuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php', 2)
+ 2 APPPATH\Controllers\usuario.php(2): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\usuario', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 19:35:30 --> ErrorException: require_once(models/Usuario.php): Failed to open stream: No such file or directory
+[Method: GET, Route: login]
+in APPPATH\Controllers\usuario.php on line 2.
+ 1 APPPATH\Controllers\usuario.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(models/Usuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php', 2)
+ 2 APPPATH\Controllers\usuario.php(2): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\usuario', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 19:35:30 --> ErrorException: require_once(models/Usuario.php): Failed to open stream: No such file or directory
+[Method: GET, Route: login]
+in APPPATH\Controllers\usuario.php on line 2.
+ 1 APPPATH\Controllers\usuario.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(models/Usuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php', 2)
+ 2 APPPATH\Controllers\usuario.php(2): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\usuario', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 19:35:52 --> ErrorException: require_once(models/Usuario.php): Failed to open stream: No such file or directory
+[Method: GET, Route: login]
+in APPPATH\Controllers\usuario.php on line 2.
+ 1 APPPATH\Controllers\usuario.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(models/Usuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php', 2)
+ 2 APPPATH\Controllers\usuario.php(2): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\usuario', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 19:35:52 --> ErrorException: require_once(models/Usuario.php): Failed to open stream: No such file or directory
+[Method: GET, Route: login]
+in APPPATH\Controllers\usuario.php on line 2.
+ 1 APPPATH\Controllers\usuario.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(models/Usuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php', 2)
+ 2 APPPATH\Controllers\usuario.php(2): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\usuario', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 19:35:52 --> ErrorException: require_once(models/Usuario.php): Failed to open stream: No such file or directory
+[Method: GET, Route: login]
+in APPPATH\Controllers\usuario.php on line 2.
+ 1 APPPATH\Controllers\usuario.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(models/Usuario.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php', 2)
+ 2 APPPATH\Controllers\usuario.php(2): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(315): include_once('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\paulisexto\\paginaceliypau\\app\\Controllers\\usuario.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\usuario')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\usuario')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\usuario', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 19:56:40 --> Error: Undefined constant "App\Controllers\PASSWORD_DEFAuLT"
+[Method: POST, Route: registro/guardar]
+in APPPATH\Controllers\usuario.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 20:11:49 --> Error: Undefined constant "App\Controllers\PASSWORD_DEFAuLT"
+[Method: POST, Route: registro/guardar]
+in APPPATH\Controllers\usuario.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 20:14:00 --> Error: Undefined constant "App\Controllers\PASSWORD_DEFAuLT"
+[Method: POST, Route: registro/guardar]
+in APPPATH\Controllers\usuario.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 20:17:41 --> Error: Undefined constant "App\Controllers\PASSWORD_DEFAuLT"
+[Method: POST, Route: registro/guardar]
+in APPPATH\Controllers\usuario.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 20:18:48 --> Error: Undefined constant "App\Controllers\PASSWORD_DEFAuLT"
+[Method: POST, Route: registro/guardar]
+in APPPATH\Controllers\usuario.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 20:19:53 --> Error: Undefined constant "App\Controllers\PASSWORD_DEFAuLT"
+[Method: POST, Route: registro/guardar]
+in APPPATH\Controllers\usuario.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 20:20:26 --> Error: Undefined constant "App\Controllers\PASSWORD_DEFAuLT"
+[Method: POST, Route: registro/guardar]
+in APPPATH\Controllers\usuario.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 20:28:33 --> Error: Undefined constant "App\Controllers\PASSWORD_DEFAuLT"
+[Method: POST, Route: registro/guardar]
+in APPPATH\Controllers\usuario.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 20:29:31 --> Error: Undefined constant "App\Controllers\PASSWORD_DEFAuLT"
+[Method: POST, Route: registro/guardar]
+in APPPATH\Controllers\usuario.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 20:29:35 --> Error: Undefined constant "App\Controllers\PASSWORD_DEFAuLT"
+[Method: POST, Route: registro/guardar]
+in APPPATH\Controllers\usuario.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-12 20:30:01 --> Error: Undefined constant "App\Controllers\PASSWORD_DEFAuLT"
+[Method: POST, Route: registro/guardar]
+in APPPATH\Controllers\usuario.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-08-12 20:33:39 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 22:19:11 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 22:28:48 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 22:32:40 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 22:38:28 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 22:43:28 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 22:46:59 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 22:49:14 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 22:55:16 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 22:55:24 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 22:55:59 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 22:56:07 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:11:29 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:11:37 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:14:24 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:14:41 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:17:47 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:24:02 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:24:12 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:26:34 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(17): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:27:51 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:30:47 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registrar()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:39:31 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registro()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:40:36 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registro()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:43:51 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registro()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:46:12 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registro()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:46:16 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registro()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:46:53 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registro()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:59:24 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registro()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-08-12 23:59:52 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\paulisexto\paginaceliypau\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\paulisexto\paginaceliypau\app\Controllers\usuario.php(16): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(933): App\Controllers\usuario->registro()
+#9 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario))
+#10 C:\xampp\htdocs\paulisexto\paginaceliypau\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\paulisexto\paginaceliypau\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\paulisexto\paginaceliypau\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
