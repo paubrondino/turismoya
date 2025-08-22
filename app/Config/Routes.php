@@ -8,23 +8,21 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'home::index');
 $routes->get('/registro', 'usuario::registro_view');
 
-// $routes->get('/', 'Home::index');
+ $routes->get('/', 'Home::index');
 
 // Registro de usuario
 $routes->get('registro', 'usuario::registro_view');         // Mostrar formulario
 $routes->post('registro/guardar', 'usuario::registro'); // Guardar datos en BD
 $routes->get('/login', 'usuario::registrar'); // Mostrar formulario de login
-$routes->post('/login/iniciar', 'usuario::iniciarSesion'); // iniciar sesión
-// $routes->get('principal', 'pagprincipal::index');
-$routes->setDefaultController('Home');
-$routes->get('principal', 'PagPrincipal::index');
-
+$routes->post('/login/iniciar', 'usuario::iniciarSesion'); 
+$routes->get('principal', 'pagprincipal::index');
 $routes->get('/registro', 'Registro::index');
-$routes->get('pagina', 'Pagina::index');
+$routes->get('/prueba', 'Prueba::index');
+$routes->post('/prueba', 'Prueba::index');
+$routes->get('/login', 'login::logout');
 
 
 
-// Tu botón de login redireccionará a /principal
 
 
 

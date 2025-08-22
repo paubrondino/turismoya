@@ -1,0 +1,126 @@
+CRITICAL - 2025-08-20 00:04:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "prueba.php"
+[Method: GET, Route: prueba]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('prueba', [], true)
+ 3 APPPATH\Controllers\Prueba.php(8): view('prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 00:05:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "prueba.php"
+[Method: GET, Route: prueba]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('prueba', [], true)
+ 3 APPPATH\Controllers\Prueba.php(8): view('prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 00:47:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "prueba.php"
+[Method: POST, Route: prueba]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('prueba', [], true)
+ 3 APPPATH\Controllers\Prueba.php(9): view('prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 00:47:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "prueba.php"
+[Method: POST, Route: prueba]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('prueba', [], true)
+ 3 APPPATH\Controllers\Prueba.php(8): view('prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 00:48:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Prueba.php"
+[Method: POST, Route: prueba]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Prueba.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Prueba', [], true)
+ 3 APPPATH\Controllers\Prueba.php(8): view('Prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 00:51:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "principal.php"
+[Method: GET, Route: prueba]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('principal.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('principal', [], true)
+ 3 APPPATH\Controllers\Prueba.php(10): view('principal')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 20:32:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "prueba_view.php"
+[Method: GET, Route: prueba]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba_view.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('prueba_view', [], true)
+ 3 APPPATH\Controllers\Prueba.php(8): view('prueba_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 20:45:05 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: prueba]
+in APPPATH\Views\Prueba.php on line 114.
+ 1 APPPATH\Views\Prueba.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xampp\\htdocs\\turismoya\\app\\Views\\Prueba.php', 114)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\turismoya\\app\\Views\\Prueba.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('prueba', [], true)
+ 5 APPPATH\Controllers\Prueba.php(8): view('prueba')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 20:45:06 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: prueba]
+in APPPATH\Views\Prueba.php on line 114.
+ 1 APPPATH\Views\Prueba.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xampp\\htdocs\\turismoya\\app\\Views\\Prueba.php', 114)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\turismoya\\app\\Views\\Prueba.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('prueba', [], true)
+ 5 APPPATH\Controllers\Prueba.php(8): view('prueba')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 20:45:06 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: prueba]
+in APPPATH\Views\Prueba.php on line 114.
+ 1 APPPATH\Views\Prueba.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xampp\\htdocs\\turismoya\\app\\Views\\Prueba.php', 114)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\turismoya\\app\\Views\\Prueba.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('prueba', [], true)
+ 5 APPPATH\Controllers\Prueba.php(8): view('prueba')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

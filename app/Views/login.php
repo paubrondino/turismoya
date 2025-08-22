@@ -97,7 +97,7 @@
   }
 </style>
 
-<form action="<?= base_url('pagina') ?>" method="post">
+<form action="<?= base_url('prueba') ?>" method="post">
   <h3>Iniciar Sesión</h3>
 
   <div class="mb-3">
@@ -119,7 +119,7 @@
     passwordInput.type = this.checked ? "text" : "password";
   });
 </script>
-
+<form action="<?= base_url('prueba') ?>" method="get">
   <button type="submit" class="btn btn-primary">Ingresar</button>
   
 </form>

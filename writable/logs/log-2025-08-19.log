@@ -1,0 +1,81 @@
+CRITICAL - 2025-08-19 23:33:08 --> Error: Undefined constant "App\Controllers\¡bienvenido¡"
+[Method: GET, Route: pagina]
+in APPPATH\Controllers\pagina.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\pagina->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pagina))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-19 23:33:21 --> Error: Undefined constant "App\Controllers\¡bienvenido¡"
+[Method: GET, Route: pagina]
+in APPPATH\Controllers\pagina.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\pagina->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pagina))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-19 23:33:23 --> Error: Undefined constant "App\Controllers\¡bienvenido¡"
+[Method: GET, Route: pagina]
+in APPPATH\Controllers\pagina.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\pagina->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pagina))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-19 23:35:37 --> Error: Undefined constant "App\Controllers\¡bienvenido¡"
+[Method: GET, Route: pagina]
+in APPPATH\Controllers\pagina.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagina->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-19 23:35:38 --> Error: Undefined constant "App\Controllers\¡bienvenido¡"
+[Method: GET, Route: pagina]
+in APPPATH\Controllers\pagina.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pagina->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pagina))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-19 23:48:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "prueba.php"
+[Method: GET, Route: prueba]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('prueba', [], true)
+ 3 APPPATH\Controllers\prueba.php(8): view('prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-19 23:56:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "prueba.php"
+[Method: GET, Route: prueba]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('prueba', [], true)
+ 3 APPPATH\Controllers\Prueba.php(8): view('prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-19 23:59:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "prueba.php"
+[Method: GET, Route: prueba]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prueba.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('prueba', [], true)
+ 3 APPPATH\Controllers\Prueba.php(8): view('prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Prueba->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prueba))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,10 +1,10 @@
 <?php
 namespace App\Controllers;
 
-class Principal extends BaseController
+class pagprincipal extends BaseController
 {
     public function index()
     {
-        return "¡Controlador Prueba funcionando!";
+        return view('pagprincipal');
     }
 }
