@@ -291,10 +291,10 @@
     <!-- Actividad 16 -->
     <div class="col-md-3 col-sm-6">
       <div class="card shadow-sm rounded">
-        <img src="https://picsum.photos/400/300?random=16" class="card-img-top" alt="Actividad 16">
+        <img src="https://turismo-en-argentina.com/wp-content/uploads/2019/06/61361454_357806994874005_4025652005206980896_n-1024x835.jpg" class="card-img-top" alt="Actividad 16">
         <div class="card-body text-center">
-          <h5 class="card-title">Actividad 16</h5>
-          <p class="card-text">Descripción breve de la actividad.</p>
+          <h5 class="card-title">Cascada salto del agrio</h5>
+          <p class="card-text">Salto de agua que cae al vacío desde aproximadamente 60 metros de altura y estalla en una pequeña laguna que espera debajo con sus aguas inmóviles.</p>
           <a href="#" class="btn btn-warning">Reservar</a>
         </div>
       </div>
@@ -305,7 +305,7 @@
       <div class="card shadow-sm rounded">
         <img src="https://picsum.photos/400/300?random=17" class="card-img-top" alt="Actividad 17">
         <div class="card-body text-center">
-          <h5 class="card-title">Actividad 17</h5>
+          <h5 class="card-title">Esteros del Iberá</h5>
           <p class="card-text">Descripción breve de la actividad.</p>
           <a href="#" class="btn btn-warning">Reservar</a>
         </div>
