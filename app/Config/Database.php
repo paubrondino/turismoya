@@ -29,7 +29,7 @@ class Database extends Config
     'hostname' => 'localhost',
     'username' => 'root',       // o el usuario que uses
     'password' => '',           // tu contraseña (si tenés)
-    'database' => 'pagina2',
+    'database' => 'pagina4',
     'DBDriver' => 'MySQLi',
     'DBPrefix' => '',
     'pConnect' => false,

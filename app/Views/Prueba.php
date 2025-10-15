@@ -31,8 +31,10 @@
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg" style="background-color: #6f4e37;">
+ <nav class="navbar navbar-expand-lg" style="background-color: #6f4e37; padding-top: 0.3rem; padding-bottom: 0.3rem;">
   <div class="container-fluid">
+    <!-- tu contenido aquí -->
+
     
     <!-- Logo o título a la izquierda -->
     <a class="navbar-brand text-white fw-bold" href="#">Turismo Ya</a>
@@ -40,9 +42,27 @@
 
     <!-- Barra de búsqueda en el medio -->
     <div class="container d-flex justify-content-center mt-5">
-  <form class="d-flex" role="search" style="width: 40%; min-width: 300px;">
+  <form class="d-flex" role="search" style="width: 40%; min-width: 250px;">
     <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
     <button class="btn btn-dark" type="submit">Buscar</button>
+  <?php if(session()->get('rol') == 1): ?>
+  <li class="nav-item ms-2">
+    <a href="<?= base_url('actividad') ?>"
+   class="fw-bold px-4 py-2 rounded-pill d-flex align-items-center justify-content-center"
+   style="background-color:#d2b48c; color:#4e342e; box-shadow:0 4px 6px rgba(240, 156, 78, 0.2);
+          transition:all 0.3s ease; text-decoration:none;"
+   onmouseover="this.style.backgroundColor='#c19a6b'; this.style.transform='scale(1.08)';"
+   onmouseout="this.style.backgroundColor='#d2b48c'; this.style.transform='scale(1)';">
+    Subir Actividad
+</a>
+  </li>
+<?php endif; ?>
+
+
+  
+
+
+
   </form>
 </div>
 
@@ -52,10 +72,18 @@
       
       <!-- Dropdown -->
       <!-- Dropdown -->
+       
 <div class="dropdown me-3">
   <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Menú
   </button>
+  <!-- Botón Subir actividad (solo para operadores) -->
+<?php if (session()->get('rol') === 'operador'): ?>
+    <a href="<?= base_url('actividad/crear') ?>" class="btn btn-warning me-3 fw-bold">
+        Subir actividad
+    </a>
+<?php endif; ?>
+
   <ul class="dropdown-menu dropdown-menu-end">
     <li>
         <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#quienesSomosModal">
@@ -67,12 +95,14 @@
             Contacto
         </a>
     </li>
+  
     <li>
-        <a class="dropdown-item" href="<?= base_url('promociones') ?>">
-            Promociones
-        </a>
-    </li>
-</ul>
+      <?php if (session()->get('rol') == 4): ?>
+    <a class="dropdown-item" href="<?= base_url('admin') ?>">
+        Admin
+    </a>
+    <?php endif; ?>
+</li>
 
 </div>
 
@@ -104,9 +134,9 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
       </div>
       <div class="modal-body">
-        <p>Email: turismoya@gmail.com</p>
+        <p>Email: viajesturismoya@gmail.com</p>
         <p>Teléfono 1: +54 3571-258512</p>
-        <p>Teléfono 2: +54 3571-258512</p>
+        <p>Teléfono 2: +54 3571-541892</p>
         <p>Dirección: 2 de Abril 1175</p>
       </div>
       <div class="modal-footer">
@@ -142,7 +172,7 @@
 
       <!-- Imagen 1 -->
       <div class="carousel-item active position-relative">
-        <img src="https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEWjO9HuZ8K3pnpbWQQW2l82VLvkMF4b098hEXlapSeqNuhXRy3A%2B252fh8JaNabN5Hp1YYdj41uxCiPLdFfasU6NP9QimLyHq7VifO88Gqt1Z24LaKr%2B0Dx2Jqbrl6DKdI4YadMVIzIDUf5ByO5OWaAfBXwQFeoj2nwIDNqtI7qlb0czZBckoT0NAGLutt%2Fbvx3sTpNsLVccnAACfUVPRrbeztqz7LuUcMcxeJPptuoowmU%2FsND1hwCP7IfYYHYr7J0TQ81xzx4IwxTxza%2FPpBiNR%2Bj58o5Eadu7AOy95Sk%2B7MBP1XPR2egsNTOKMW%2BeSGOrOtBgDMl41%2FLaaVWQ1NpOBQAiXYOX9n6dimW50Ou2zbjGMVTJwHXmeskyu4cE47bbaW3wCd6%2Bu4dHEhoQULaMsFB116DPAzbvgY6iJafXhxDeUNAkkXxcsiz5%2FZyVcXg4bbHHn1R9I6aEGTnm9i0ug1qCaD44upoZjaPWoqNtrDo5lp2JlcL3We4X4T0wHBkt%2FCs0o3mpAyIQw3Jbm28RIF%2B7blLgevP4zAD46DfijaJwtOsPuH%2BxN4STtTAf0D9RXfuK2XnMyk%2BGA1lJei0MFoputxkla8wlpNtgz2Ba%2FFo422SmSGYaD5TbX0e0veUtxkAqriF8aUTNOdbRYPxA5sDQM5MPZ%2BSg7cr2JWwoUxYNKQ7&allow_caching=true&sz=w512"
+        <img src="https://www.federacion.tur.ar/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-17-at-15.28.11.jpeg"
              class="d-block w-100 h-100" style="object-fit: cover; border-radius: 15px;">
         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         </div>
@@ -150,7 +180,7 @@
 
       <!-- Imagen 2 -->
       <div class="carousel-item position-relative">
-        <img src="https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEXtr6EFQQ8f1N8JqtVXSXHXnfsYs3aXhAeBVRK3YVBd%2FSqRCAN2hmtA1JSVh%2BzE6hu3tOIEK8EfckL4gL%2FobmWfPB3QIBBihtQH6my0NC28EBNNkXb1QNRFABqS6ILlS6fhEcLsC%2FpVoiA6qDcj6f6bWpvo5eSaDMH8DjjEF9SCBaCNe3jFNzxcTJZlCeyQUhlJnS%2Bdo6mqAHAUy39Flt2RYPMs%2FZVNVv55iLefQ80ST55f8oP73kOBnyem99zHuJeAlCEf3bRJqE0v%2BnWCO7wUiwEjTxDpZ6mkkC7icsamyRk39a%2BC394b%2F%2FO7K%2FeUnGW1zgh0Rw8HNZOIyJoudrCYxETb%2BOp85ij4INnr5WpHEziqe7ZUHMUQQ54sjylt5F6JzX%2FQhRSM1bVTDDt9kFWU7YlwDnlJ9iuvftbvt%2B%2BpViEoKL08IZbNm7j%2FR5Sl%2BwghF2127D2cLhteCmopO3iMPAzVmLfFOKZxHFQA%2BjrWVNLmshBYKHV413GbwvqPlYo9VjIxqyBxjMNkWk%2FcfEuV8lTzAU8jkH2hkpdBhRAAavmjwkFy18sqLBRobmN6fhKXRI7s02Hw46jysPn2115wlGerjfqiJsGBSUYzr2Qk8TbRyOBDkM7pDLb8So%2FomO8GhEbzYjjrO1sMcX%2BJaJ%2FQWwlNGSRqMA%3D%3D&allow_caching=true&sz=w512"
+        <img src="https://media.staticontent.com/media/pictures/2bad8f8c-20e3-47ed-9bf9-06f828229a2c"
              class="d-block w-100 h-100" style="object-fit: cover; border-radius: 15px;" >
         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
           
@@ -159,7 +189,7 @@
 
       <!-- Imagen 3 -->
       <div class="carousel-item position-relative">
-        <img src="https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEWj40cKa7o26D75YGoLNE4Ljs7Qo2hG%2FVTBUJLJW0ZGwKMP5t9N2yTkKDFLustq8CXzyBoQk8CUMKoao7HeYFzqHi8jw9PFVvwMtM5Z3kSKoTeWiwNbVoVSPmMtMaX5gvyoyJ7hbDJBVJ8ZKevS84YDKEjvtCZ4t1pTGkSNn65UKsHDgj7DTy9EzldNZ6TtnblbNlLQMJtgHPnPWPbbag7ralaiSugriEmiaff474yRUH5qYJ%2FNhCJSez0sRM2Hp361NSjeGINkD%2BkM04XebzEuJEsT%2BwpCyRPrpNMLbxomAhk8HrJBPPBXzw9%2FN8Df1ThVQDkn5ArrYl%2BcJgYuLIl%2FBmGNs2fKeb5thoqBbqb2wfOdGZRaB2MAm9YiukMSsZ%2Fz5qvOvTgEgl6WmVaJM3IiKic7IlRYzNmFTtY9mY8kp1WUO7RjueYTWYWv0GcGsUw1U7xp3lDB9BrYvJfqdoA429g8i6z%2BpdL1nKDn3aoXu4ieARhbcwXHdyg1TcfDDcO8XP0gZ5fvFFScwsAnos8AHrDpmBwkEarFixeYGY8G4g5fAhucklAriLUpxyoZglP9Xf3YZwo3XD9OCiq89vEZF4FMGf908dPFjDaXL%2Bzu5f%2FmqTCetVVUVXN1Uq4mbt97STaEykDg5PvE8WMmJTQ3610%3D&allow_caching=true&sz=w512"
+        <img src="https://media.staticontent.com/media/pictures/0ce8b832-51e8-4489-bb81-cab5a102623d"
              class="d-block w-100 h-100" style="object-fit: cover; border-radius: 15px;" >
         <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
          
@@ -183,23 +213,39 @@
 <!-- ACTIVIDADES - 20 CARDS -->
 <div class="container mt-5">
   <div class="row g-4">
-    <?php if(!empty($actividades) && is_array($actividades)): ?>
-        <?php foreach($actividades as $actividad): ?>
+    <?php if (!empty($actividades) && is_array($actividades)): ?>
+        <?php foreach ($actividades as $actividad): ?>
             <div class="col-md-4">
-                <div class="card h-100 shadow-sm">
-                    <?php if(!empty($actividad['imagen'])): ?>
-                        <img src="<?= base_url('uploads/'.$actividad['imagen']) ?>" class="card-img-top" alt="<?= $actividad['nombre'] ?>" style="height: 200px; object-fit: cover;">
-                    <?php endif; ?>
+                <div class="card h-100">
+                    <img src="<?= base_url('uploads/actividades/'.$actividad['imagen']) ?>" 
+                         class="card-img-top" 
+                         alt="<?= esc($actividad['nombre']) ?>">
                     <div class="card-body">
-                        <h5 class="card-title"><?= $actividad['nombre'] ?></h5>
-                        <p class="card-text"><?= $actividad['descripcion'] ?></p>
-                        <p class="card-text fw-bold">Precio: $<?= $actividad['precio'] ?></p>
-                        <a href="<?= base_url('actividad/'.$actividad['id']) ?>" class="btn btn-primary">Ver más</a>
+                        <h5 class="card-title"><?= esc($actividad['nombre']) ?></h5>
+                        <p class="card-text"><?= esc($actividad['descripcion']) ?></p>
+                        <p class="fw-bold">$<?= esc($actividad['precio']) ?></p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a href="<?= base_url('actividad/'.$actividad['id_actividad']) ?>" 
+                           class="btn btn-primary btn-sm">Ver más</a>
                     </div>
                 </div>
             </div>
         <?php endforeach; ?>
-    <?php else: ?>
-        <p>No hay actividades disponibles.</p>
+
     <?php endif; ?>
+  </div>
+</div>
+</div>
+<!-- BOTÓN VER ACTIVIDADES -->
+<div class="d-flex justify-content-center my-5">
+  <a href="<?= site_url('actividades') ?>" 
+     class="fw-bold px-5 py-3 rounded-pill"
+     style="background-color:#d2b48c; color:#4e342e; 
+            box-shadow:0 4px 8px rgba(0,0,0,0.2);
+            transition:all 0.3s ease; text-decoration:none; font-size:1.2rem;"
+     onmouseover="this.style.backgroundColor='#c19a6b'; this.style.transform='scale(1.08)';"
+     onmouseout="this.style.backgroundColor='#d2b48c'; this.style.transform='scale(1)';">
+    Ver Actividades
+  </a>
 </div>

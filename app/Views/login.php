@@ -8,8 +8,55 @@
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    width: 100%;
+    padding: 15px 30px;
+    background-color: rgba(133, 94, 66, 0.85);
+    display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(101, 67, 33, 0.6);
+  }
+
+  nav .container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  nav h1 {
+    color: #f5deb3;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  nav .btn-volver {
+    position: absolute;
+    right: 0;
+    background-color: #8b5e3c;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  nav .btn-volver:hover {
+    background-color: #a6784d;
   }
 
   form {
@@ -20,6 +67,7 @@
     max-width: 400px;
     width: 100%;
     color: #fff;
+    margin-top: 100px; /* espacio para la barra fija */
   }
 
   h3 {
@@ -89,47 +137,44 @@
   .btn-primary:hover {
     background-color: #a6784d;
   }
-
-  #emailHelp {
-    color: #f0e6d2;
-    font-size: 14px;
-    margin-top: 6px;
-  }
 </style>
 
-<form action="<?= base_url('prueba') ?>" method="post">
+<nav>
+  <div class="container">
+    <h1>Turismo Ya</h1>
+    <a href="<?= base_url('principal') ?>" class="btn-volver">Volver</a>
+  </div>
+</nav>
+
+<form action="<?= base_url('login/iniciar') ?>" method="post">
+<?php if(session()->getFlashdata('error')): ?>
+        <div style="color: black; text-align: center; margin-bottom: 15px;">
+            <?= session()->getFlashdata('error') ?>
+        </div>
+<?php endif; ?>
   <h3>Iniciar Sesión</h3>
 
   <div class="mb-3">
     <label for="gmail" class="form-label">Gmail</label>
-    <input type="gmail" class="form-control" id="gmail" required>
+    <input type="email" class="form-control" id="gmail" name="gmail" required>
   </div>
 
-    <label for="clave" class="form-label">Contraseña</label>
-<input type="password" id="passwordInput" class="form-control" placeholder="Contraseña">
+  <label for="clave" class="form-label">Contraseña</label>
+  <input type="password" id="clave" class="form-control" name="clave" placeholder="Contraseña" required>
 
-<div class="mb-3 form-check" style="display: flex; align-items: center;">
-  <input type="checkbox" class="form-check-input" id="showPasswordCheck">
-  <label class="form-check-label" for="showPasswordCheck">Mostrar contraseña</label>
-</div>
+  <div class="mb-3 form-check" style="display: flex; align-items: center;">
+    <input type="checkbox" class="form-check-input" id="showPasswordCheck">
+    <label class="form-check-label" for="showPasswordCheck">Mostrar contraseña</label>
+  </div>
 
-<script>
-  document.getElementById("showPasswordCheck").addEventListener("change", function() {
-    const passwordInput = document.getElementById("passwordInput");
-    passwordInput.type = this.checked ? "text" : "password";
-  });
-</script>
-<form action="<?= base_url('prueba') ?>" method="get">
-  <button type="submit" class="btn btn-primary">Ingresar</button>
-  
+  <script>
+    const passInput = document.getElementById('clave');
+    const showPassCheckbox = document.getElementById('showPasswordCheck');
+
+    showPassCheckbox.addEventListener('change', () => {
+      passInput.type = showPassCheckbox.checked ? 'text' : 'password';
+    });
+  </script>
+
+  <button type="submit" class="btn-primary">Ingresar</button>
 </form>
-
-<script>
-  const passInput = document.getElementById('clave');
-  const showPassCheckbox = document.getElementById('showPasswordCheck');
-
-  showPassCheckbox.addEventListener('change', () => {
-    passInput.type = showPassCheckbox.checked ? 'text' : 'password';
-  });
-</script>
-
