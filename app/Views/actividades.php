@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Actividades</title>
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -74,26 +75,40 @@
     </div>
   </nav>
 
+  <!-- 🔍 Barra de búsqueda -->
+  <div class="container mt-4 mb-5">
+    <form action="<?= base_url('buscar-actividad') ?>" method="get" class="d-flex justify-content-center">
+      <input 
+        type="text" 
+        name="q" 
+        class="form-control me-2 w-50" 
+        placeholder="Buscar actividad..." 
+        value="<?= esc($query ?? '') ?>">
+      <button class="btn btn-brown" type="submit">Buscar</button>
+    </form>
+  </div>
+
   <!-- Contenido -->
-  <div class="container py-5">
+  <div class="container pb-5">
     <div class="row g-4">
       <?php if(isset($actividades) && count($actividades) > 0): ?>
         <?php foreach($actividades as $actividad): ?>
           <div class="col-md-4">
             <div class="card h-100">
-             <img src="<?= base_url('uploads/actividades/' . $actividad['imagen']); ?>"
-     class="card-img-top"
-     alt="<?= esc($actividad['nombre']); ?>">
+              <img src="<?= base_url('uploads/actividades/' . $actividad['imagen']); ?>" 
+                   class="card-img-top" 
+                   alt="<?= esc($actividad['nombre']); ?>">
               
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title"><?= $actividad['nombre']; ?></h5>
-                <p class="card-text"><?= $actividad['descripcion']; ?></p>
-                <p><strong>Precio:</strong> $<?= $actividad['precio']; ?></p>
-<?php
-$fechas = json_decode($actividad['disponibilidad'], true);
-$cantidad = is_array($fechas) ? count($fechas) : 0;
-?>
-<p><strong>Disponibilidad:</strong> <?= $cantidad ?> fechas</p>
+                <h5 class="card-title"><?= esc($actividad['nombre']); ?></h5>
+                <p class="card-text"><?= esc($actividad['descripcion']); ?></p>
+                <p><strong>Precio:</strong> $<?= esc($actividad['precio']); ?></p>
+
+                <?php
+                $fechas = json_decode($actividad['disponibilidad'], true);
+                $cantidad = is_array($fechas) ? count($fechas) : 0;
+                ?>
+                <p><strong>Disponibilidad:</strong> <?= $cantidad ?> fechas</p>
 
                 <div class="mt-auto">
                   <a href="<?= base_url('actividad_detalle/' . $actividad['id_actividad']) ?>" class="btn btn-brown w-100">Reservar</a>
@@ -104,7 +119,7 @@ $cantidad = is_array($fechas) ? count($fechas) : 0;
         <?php endforeach; ?>
       <?php else: ?>
         <div class="col-12 text-center">
-          <p>No hay actividades cargadas.</p>
+          <p>No se encontraron actividades.</p>
         </div>
       <?php endif; ?>
     </div>

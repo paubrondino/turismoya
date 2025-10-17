@@ -90,3 +90,9 @@ $routes->post('/reservar', 'Reserva::mandar');
 $routes->get('admin', 'Admin::index');
 $routes->get('admin/aceptar/(:num)', 'Admin::aceptar/$1');
 $routes->get('admin/rechazar/(:num)', 'Admin::rechazar/$1');
+
+
+// buscar
+$routes->get('actividades', 'ActividadController::index');
+$routes->get('buscar-actividad', 'ActividadController::buscar');
+$routes->get('actividad/(:num)', 'ActividadController::detalle/$1');

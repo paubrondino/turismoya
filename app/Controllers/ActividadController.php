@@ -26,5 +26,31 @@ class ActividadController extends BaseController
 
         return view('actividad_detalle', ['actividad' => $actividad]);
     }
+    public function buscar()
+    {
+        $query = trim($this->request->getGet('q'));
+        $model = new ActividadModel();
+    
+        if ($query) {
+            $db = \Config\Database::connect();
+            $builder = $db->table('actividad');
+            $builder->select('*');
+    
+            // 🔍 Buscamos sin importar mayúsculas/minúsculas
+            $builder->groupStart()
+                ->like('LOWER(nombre)', strtolower($query))
+                ->orLike('LOWER(descripcion)', strtolower($query))
+            ->groupEnd();
+    
+            $data['actividades'] = $builder->get()->getResultArray();
+        } else {
+            $data['actividades'] = $model->findAll();
+        }
+    
+        $data['query'] = $query;
+    
+        return view('actividades', $data);
+    }
+    
 }
 

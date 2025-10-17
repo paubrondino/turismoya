@@ -41,22 +41,32 @@
     
 
     <!-- Barra de búsqueda en el medio -->
-    <div class="container d-flex justify-content-center mt-5">
-  <form class="d-flex" role="search" style="width: 40%; min-width: 250px;">
-    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
+   <!-- Barra de búsqueda en el medio -->
+<div class="container d-flex justify-content-center mt-5">
+  <form action="<?= base_url('buscar-actividad') ?>" method="get" class="d-flex" role="search" style="width: 40%; min-width: 250px;">
+    <input 
+      class="form-control me-2" 
+      type="search" 
+      name="q" 
+      placeholder="Buscar actividad..." 
+      aria-label="Buscar"
+      value="<?= esc($query ?? '') ?>">
     <button class="btn btn-dark" type="submit">Buscar</button>
+  </form>
+
   <?php if(session()->get('rol') == 1): ?>
-  <li class="nav-item ms-2">
-    <a href="<?= base_url('actividad') ?>"
-   class="fw-bold px-4 py-2 rounded-pill d-flex align-items-center justify-content-center"
-   style="background-color:#d2b48c; color:#4e342e; box-shadow:0 4px 6px rgba(240, 156, 78, 0.2);
-          transition:all 0.3s ease; text-decoration:none;"
-   onmouseover="this.style.backgroundColor='#c19a6b'; this.style.transform='scale(1.08)';"
-   onmouseout="this.style.backgroundColor='#d2b48c'; this.style.transform='scale(1)';">
-    Subir Actividad
-</a>
-  </li>
-<?php endif; ?>
+    <li class="nav-item ms-2">
+      <a href="<?= base_url('actividad') ?>"
+         class="fw-bold px-4 py-2 rounded-pill d-flex align-items-center justify-content-center"
+         style="background-color:#d2b48c; color:#4e342e; box-shadow:0 4px 6px rgba(240, 156, 78, 0.2);
+                transition:all 0.3s ease; text-decoration:none;"
+         onmouseover="this.style.backgroundColor='#c19a6b'; this.style.transform='scale(1.08)';"
+         onmouseout="this.style.backgroundColor='#d2b48c'; this.style.transform='scale(1)';">
+        Subir Actividad
+      </a>
+    </li>
+  <?php endif; ?>
+</div>
 
 
   
