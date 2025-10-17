@@ -114,40 +114,26 @@ class Reserva extends BaseController
         }
     }
 
-    // Obtener fechas bloqueadas (ya reservadas)
-    public function fechasBloqueadas($idActividad)
-    {
-        $reservaModel = new ReservaModel();
-        $fechas = $reservaModel->select('fecha')
-            ->where('id_actividad', $idActividad)
-            ->findAll();
-
-        $soloFechas = array_column($fechas, 'fecha');
-        return $this->response->setJSON($soloFechas);
-    }
-
-    // Obtener fechas disponibles desde el campo JSON de la actividad
+    // Obtener la cantidad de fechas disponibles (no las fechas)
     public function fechasDisponibles($idActividad)
-{
-    $actividadModel = new ActividadModel();
-    $actividad = $actividadModel->find($idActividad);
+    {
+        $actividadModel = new ActividadModel();
+        $actividad = $actividadModel->find($idActividad);
 
-    if (!$actividad || empty($actividad['fechas_disponibles'])) {
+        if (!$actividad) {
+            return $this->response->setJSON(['cantidad' => 0]);
+        }
+
+        return $this->response->setJSON([
+            'cantidad' => (int) $actividad['disponibilidad']
+        ]);
+        
+    if ($actividad && !empty($actividad['fechas_disponibles'])) {
+        $fechas = json_decode($actividad['fechas_disponibles'], true);
+        return $this->response->setJSON($fechas);
+    } else {
         return $this->response->setJSON([]);
     }
-
-    $fechasArray = json_decode($actividad['fechas_disponibles'], true);
-
-    // Quitar fechas ya reservadas
-    $reservaModel = new ReservaModel();
-    $fechasReservadas = $reservaModel->select('fecha')
-        ->where('id_actividad', $idActividad)
-        ->findAll();
-    $fechasReservadas = array_column($fechasReservadas, 'fecha');
-
-    $fechasDisponibles = array_diff($fechasArray, $fechasReservadas);
-
-    return $this->response->setJSON(array_values($fechasDisponibles));
+    }
 }
-
-}
+            

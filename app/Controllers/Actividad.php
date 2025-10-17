@@ -64,7 +64,7 @@ class Actividad extends BaseController
         return view('prueba', $data);
     }
 
-    // Detalle de actividad
+    // 🔹 Detalle de actividad (corregido con disponibilidad real)
     public function detalle($id)
     {
         $actividadModel = new ActividadModel();
@@ -74,10 +74,32 @@ class Actividad extends BaseController
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Actividad no encontrada');
         }
 
-        // Decodificar las fechas
-        $actividad['fechas_disponibles'] = json_decode($actividad['fechas_disponibles'], true);
+        // Si existen fechas disponibles en JSON, contarlas
+        if (!empty($actividad['fechas_disponibles'])) {
+            $fechas = json_decode($actividad['fechas_disponibles'], true);
+            $actividad['disponibilidad'] = is_array($fechas) ? count($fechas) : 0;
+            $actividad['fechas_disponibles'] = $fechas;
+        } else {
+            $actividad['disponibilidad'] = 0;
+            $actividad['fechas_disponibles'] = [];
+        }
 
         return view('actividad_detalle', ['actividad' => $actividad]);
+    }
+
+    // 🔹 Endpoint que devuelve fechas disponibles para el calendario
+    public function fechasDisponibles($id)
+    {
+        $actividadModel = new ActividadModel();
+        $actividad = $actividadModel->find($id);
+
+        if ($actividad && !empty($actividad['fechas_disponibles'])) {
+            $fechas = json_decode($actividad['fechas_disponibles'], true);
+        } else {
+            $fechas = [];
+        }
+
+        return $this->response->setJSON($fechas);
     }
 }
 

@@ -125,22 +125,29 @@
     </div>
   </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script>
+  // Pedimos al backend la cantidad de fechas disponibles
   fetch('<?= base_url("reserva/fechasDisponibles/".$actividad['id_actividad']) ?>')
     .then(res => res.json())
-    .then(fechasDisponibles => {
-      // Tomamos solo las primeras 5 fechas
-      let primerasFechas = fechasDisponibles.slice(0, 5);
+    .then(data => {
+      const cantidad = data.cantidad ?? 0;
 
-      flatpickr("#fecha", {
-        dateFormat: "Y-m-d",
-        enable: primerasFechas, // solo mostrar las fechas disponibles
-        locale: "es"
-      });
+      // Mostramos la cantidad en un alert o en el input de fecha
+      if (cantidad > 0) {
+        // Mostramos el número en el campo de fecha
+        document.getElementById('fecha').placeholder = cantidad + " fechas disponibles";
+
+        // También podemos permitir seleccionar una fecha cualquiera
+        flatpickr("#fecha", {
+          dateFormat: "Y-m-d",
+          minDate: "today"
+        });
+      } else {
+        document.getElementById('fecha').placeholder = "No hay fechas disponibles";
+        document.getElementById('fecha').disabled = true;
+      }
     })
-    .catch(err => console.error("Error al cargar fechas:", err));
+    .catch(err => console.error("Error al cargar disponibilidad:", err));
 </script>
 
 

@@ -6,11 +6,19 @@ use CodeIgniter\Model;
 
 class ActividadModel extends Model
 {
-   protected $table = 'actividad';
-protected $primaryKey = 'id_actividad';
-protected $allowedFields = ['nombre', 'precio', 'descripcion', 'disponibilidad', 'imagen'];
+    protected $table = 'actividad';
+    protected $primaryKey = 'id_actividad';
     protected $returnType = 'array';
-     // Función para obtener disponibilidad actual
+    protected $allowedFields = [
+        'nombre',
+        'precio',
+        'descripcion',
+        'disponibilidad',
+        'imagen',
+        'fechas_disponibles' // 👈 AGREGA ESTE CAMPO
+    ];
+
+    // Función para obtener disponibilidad actual
     public function getDisponibilidad($idActividad)
     {
         return $this->where('id_actividad', $idActividad)
