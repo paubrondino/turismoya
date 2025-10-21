@@ -127,13 +127,21 @@
 
 <div class="profile-card">
     <div class="profile-image">
-        <img id="userImage" src="placeholder-image-url.jpg" alt="Imagen de perfil">
+    <img 
+  id="userImage"
+  src="<?= session()->get('imagen') 
+        ? base_url('uploads/perfiles/' . session()->get('imagen')) 
+        : 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png' ?>" 
+  alt="Imagen de perfil"
+>
+
     </div>
 
-    <div class="upload-form">
-        <input type="file" id="imageUpload" accept="image/*">
-        <button onclick="uploadImage()">Subir Imagen</button>
-    </div>
+    <form action="<?= base_url('usuario/subir_imagen') ?>" method="post" enctype="multipart/form-data" class="upload-form">
+    <input type="file" name="imagen" accept="image/*" required>
+    <button type="submit">Subir Imagen</button>
+</form>
+
 
     <div class="profile-info">
         <p>

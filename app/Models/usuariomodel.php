@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class usuariomodel extends Model {
     protected $table = 'usuario';
     protected $primaryKey = 'id_usuario';
-    protected $allowedFields = ['nombre', 'apellido', 'gmail','clave', "id_rol" ];
+    protected $allowedFields = ['nombre', 'apellido', 'gmail','imagen','clave', "id_rol" ];
 
     // Función para insertar datos
     public function insertarDatos(array $datos): bool {

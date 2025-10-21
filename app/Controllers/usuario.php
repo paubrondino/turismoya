@@ -103,6 +103,7 @@ public function iniciarSesion()
     public function perfil()
     {
         $usuarioModel = new UsuarioModel();
+        dd(session()->get());
 
         // Obtener datos del usuario logueado (ejemplo con session)
         $id_usuario = session()->get('id'); // Suponiendo que guardaste el id al loguearte
@@ -113,22 +114,34 @@ public function iniciarSesion()
     }
 
     public function subir_imagen()
-    {
-        $usuarioModel = new UsuarioModel();
-        $id_usuario = session()->get('id');
-        $file = $this->request->getFile('imagen');
+{
+    $usuarioModel = new \App\Models\usuariomodel();
+    $id_usuario = session()->get('id_usuario'); // 👈 nombre de la variable que guardás al iniciar sesión
 
-        if ($file && $file->isValid() && !$file->hasMoved()) {
-            $nombre = $file->getRandomName();
-            $file->move('uploads', $nombre);
-
-            $usuarioModel->update($id_usuario, ['imagen' => $nombre]);
-            return redirect()->to(base_url('usuario/perfil'))->with('mensaje', 'Imagen subida con éxito');
-        }
-
-        return redirect()->to(base_url('usuario/perfil'))->with('mensaje', 'Error al subir la imagen');
+    if (!$id_usuario) {
+        return redirect()->back()->with('error', 'No hay usuario logueado.');
     }
 
+    $file = $this->request->getFile('imagen');
+
+    if ($file && $file->isValid() && !$file->hasMoved()) {
+        $nombre = $file->getRandomName();
+        $file->move(FCPATH . 'uploads/perfiles/', $nombre);
+
+        // 🟢 Actualizar en la base de datos
+        $usuarioModel->update($id_usuario, ['imagen' => $nombre]);
+
+        // 🟢 Guardar en sesión para que se vea al instante
+        session()->set('imagen', $nombre);
+
+        return redirect()->to(base_url('perfil'))->with('mensaje', 'Imagen subida con éxito');
+    }
+
+    return redirect()->back()->with('error', 'Error al subir la imagen.');
+}
+
+    
+    
     public function solicitar_operador()
     {
         // Aquí puedes manejar la lógica de solicitud (guardar en DB, enviar correo, etc.)
@@ -136,7 +149,7 @@ public function iniciarSesion()
     }
     public function solicitud() {
         // Mostrar la vista de solicitud
-        return view('usuario/solicitud'); // Ruta: app/Views/usuario/solicitud.php
+        return view('solicitud'); // Ruta: app/Views/usuario/solicitud.php
     }
     
     

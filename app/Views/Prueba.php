@@ -40,7 +40,6 @@
     <a class="navbar-brand text-white fw-bold" href="#">Turismo Ya</a>
     
 
-    <!-- Barra de búsqueda en el medio -->
    <!-- Barra de búsqueda en el medio -->
 <div class="container d-flex justify-content-center mt-5">
   <form action="<?= base_url('buscar-actividad') ?>" method="get" class="d-flex" role="search" style="width: 40%; min-width: 250px;">
@@ -160,7 +159,12 @@
       <!-- Perfil -->
       <div class="dropdown">
         <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="perfilDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Perfil" width="35" height="35" class="rounded-circle me-2">
+        <img 
+  src="<?= session()->get('imagen') 
+          ? base_url('uploads/perfiles/' . session()->get('imagen')) 
+          : 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png' ?>" 
+  alt="Perfil" width="35" height="35" class="rounded-circle me-2">
+
           <span>Perfil</span>
         </a>
         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
@@ -170,8 +174,6 @@
          </ul>
 
       </div>
-    </div>
-  </div>
 </nav>
 
 
